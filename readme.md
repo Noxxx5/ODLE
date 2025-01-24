@@ -7,13 +7,13 @@ You can do a quick test using run.ipynb in a jupyter notebook.
 
 * Create the environment
 ```bash
-conda create env -n env_name python=3.10.6 -y
+conda create env -n env_name python=3.10 -y
 conda activate env_name
 ```
 
 * Install necessary python libraries:
 ```bash
-pip install pyyaml safetensors einops transformers scipy torchsde aiohttp spandrel kornia requests numpy==1.25.0
+pip install pyyaml safetensors einops transformers scipy torchsde aiohttp spandrel kornia requests numpy
 pip install open_clip_torch
 ```
 
