@@ -12,10 +12,10 @@ conda activate env_name
 ```
 
 * Install necessary python libraries:
-
+```bash
 pip install pyyaml safetensors einops transformers scipy torchsde aiohttp spandrel kornia requests numpy==1.25.0
-
 pip install open_clip_torch
+```
 
 Install diffuser:
 ```bash
@@ -24,7 +24,7 @@ cd diffusers
 pip install -e .
 ```
 Install CutMix
-```
+```bash
 pip install git+https://github.com/ildoonet/cutmix
 ```
 
